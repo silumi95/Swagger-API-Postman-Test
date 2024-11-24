@@ -67,11 +67,11 @@ Create a 'New Item', with the type of 'Pipeline', and then configure the created
 #### Job Configuration Description
 This Jenkins job automates the process of running Postman collections via Newman, with all necessary dependencies (Node.js and Newman) installed dynamically. The configuration ensures that the pipeline runs smoothly from GitHub, through Newman execution, to generating the reports.
 
-#### GitHub Project
+#### General: GitHub Project
 - **Project URL**: [https://github.com/silumi95/Swagger-API-Postman-Test.git](https://github.com/silumi95/Swagger-API-Postman-Test.git)
 
-#### Build Trigger
-- **Trigger**: GitHub hook trigger for GIT SCM polling  
+#### Build Triggers
+- **Trigger**: 'GitHub hook trigger for GIT SCM polling'  
   This will automatically trigger a build whenever there are changes to the GitHub repository.
 
 #### Pipeline Definition
