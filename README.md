@@ -62,8 +62,7 @@ The Jenkins pipeline automates the following tasks:
 ---
 
 ## Set Up Jenkins Job
-
-### 1. Job Configuration
+Create a 'New Item', with the type of 'Pipeline', and then configure the created item as follows.
 
 #### Job Configuration Description
 This Jenkins job automates the process of running Postman collections via Newman, with all necessary dependencies (Node.js and Newman) installed dynamically. The configuration ensures that the pipeline runs smoothly from GitHub, through Newman execution, to generating the reports.
